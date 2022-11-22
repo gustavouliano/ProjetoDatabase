@@ -1,0 +1,44 @@
+{
+    "database": [
+        {
+            "tabela": [
+                {
+                    "coluna": [
+                        {
+                            "nome": "id",
+                            "tipo": "int",
+                            "primaryKey": true,
+                            "autoIncrement": true,
+                            "isNull": false
+                        },
+                        {
+                            "nome": "nome",
+                            "tipo": "varchar(20)",
+                            "primaryKey": false,
+                            "autoIncrement": false,
+                            "isNull": true
+                        }
+                    ],
+                    "nome": "Pessoa"
+                },
+                {
+                    "coluna": [
+                        {
+                            "nome": "id",
+                            "tipo": "int",
+                            "primaryKey": true,
+                            "autoIncrement": true,
+                            "isNull": false
+                        }
+                    ],
+                    "nome": "Endereço"
+                }
+            ],
+            "nome": "Teste"
+        }
+    ],
+    "porta": "3306",
+    "user": "gustavo",
+    "password": "admin123",
+    "tipoSgbd": "1"
+}
